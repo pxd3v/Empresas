@@ -1,8 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
+import "./assets/styles/global.css";
+import { Routes } from "./Routes";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <AuthProvider>
+      <Routes />
+    </AuthProvider>
+  );
 }
 
 export default App;
