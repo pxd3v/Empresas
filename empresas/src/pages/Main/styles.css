@@ -1,0 +1,112 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(180deg, #ee4c77 70%, #0d0430 190%);
+  padding: 35px 25px;
+}
+
+.Search-Button {
+  border: none;
+  background: none;
+  position: absolute;
+}
+.Search-Button:focus {
+  outline: none;
+}
+
+.Search-Button:hover {
+  cursor: pointer;
+}
+
+.Close-Button {
+  border: none;
+  background: none;
+}
+.Close-Button:focus {
+  outline: none;
+}
+
+.Close-Button:hover {
+  cursor: pointer;
+}
+
+.Content-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: var(--beige);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.Content {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #383743;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.Logo {
+  margin: 0;
+  color: #fff;
+}
+
+.Logo-Container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Input-Container {
+  border-bottom: solid 0.5px #d8d8d8;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.Input {
+  width: 100%;
+  color: var(--white-two);
+  font-family: Robot;
+  font-size: 32px;
+}
+
+.Logout-Button {
+  background-color: #d8d8d8;
+  padding: 16px;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.Logout-Button:hover {
+  cursor: pointer;
+}
+
+.Default-Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,69 @@
+.List {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.List-Item {
+  display: flex;
+  width: 70%;
+  border-radius: 4px;
+  background-color: var(--white-two);
+  margin: 24px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.List-Item-Photo {
+  height: 128px;
+  background-color: #7dc075;
+  font-family: Poppins;
+  font-weight: 900;
+  width: 20%;
+  margin: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.List-Item-Text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.List-Item-Text-Name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: var(--dark-indigo);
+}
+
+.List-Item-Text-Type {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: var(--warm-grey);
+}
+
+.List-Item-Text-Description {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: var(--warm-grey);
+}
+
+.Not-Found-Message {
+  color: #b5b4b4;
+  font-family: Robot;
+  font-size: 32px;
+}
